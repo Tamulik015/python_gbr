@@ -1,6 +1,7 @@
 number = int(input('Введите число: '))
 result = 0
 
+
 while number > 0:
     var = number % 10
     if var > result:

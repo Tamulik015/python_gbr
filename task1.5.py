@@ -2,6 +2,7 @@ revenue = int(input('Введите прибыль компании: '))
 costs = int(input('Введите издержки компании: '))
 income = revenue - costs
 
+
 if income < 0:
     print('Убытки фирмы:', income)
 elif income > 0 or income == 0:

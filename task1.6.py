@@ -3,6 +3,7 @@ b = int(input('Общий результат: '))
 result = 0
 print(a)
 
+
 while a < b:
     result = (a * 0.1) + a
     a = result
